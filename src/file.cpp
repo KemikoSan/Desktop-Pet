@@ -1,6 +1,7 @@
 #include <array>
 #include <file.hpp>
 #include <string_view>
+#include <cstdlib>
 
 std::array<int, 2> find_values(std::string_view str) {
   int first = str.find("_");
